@@ -418,16 +418,16 @@ class Main:
 		print(" [4] 2009-2010 Cloning")
 		print(" [5] 2011-2014 Cloning")
 		print(" [E] Exit Programming\n")
-		Ahsan =input(" Choose : ")
-		if Alamin in ["1", "01"]:
+		YE4S1N =input(" Choose : ")
+		if YE4S1N in ["1", "01"]:
 			File()
-		if Alamin in ["2", "02"]:
+		if YE4S1N in ["2", "02"]:
 			Public()
-		if Alamin in ["3", "03"]:
+		if YE4S1N in ["3", "03"]:
 			os.system("python Dump.py")
-		if Alamin in ["4", "04"]:
+		if YE4S1N in ["4", "04"]:
 			self.old()
-		if Ahsan in ["5", "05"]:
+		if YE4S1N in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
